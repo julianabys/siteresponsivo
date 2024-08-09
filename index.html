@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Responsiva, teste</title>
+ <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="font.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Brother`s Burger</h1>
+        <nav>
+            <div class="menu-toggle" 
+            id="menu-toggle">
+                ☰ 
+            </div>
+            <ul id="menu">
+                <li><a href="home">inicio</a></li>
+                <li><a href="#sobre">sobre</a></li>
+                <li><a href="#servico">cardápio</a></li>
+                <li><a href="#contato">contato</a></li>
+                <li><a href="#login">login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>        
+        
+         <section>
+            <h2>Bem-vindo!</h2>
+            <h3>Fome de Matar</h3>
+            <p>Aqui no fome de matar, você encontras ose melhores </p>
+            <p>Este é um exemplo de uma página web responsiva. Redimensione a janela para ver como o layout se ajusta a diferentes tamanhos de tela.</p>
+            <img src="hamburger.webp" width="80%" height="80%">
+        </section>
+                <!-- Conteúdo principal da página -->
+                <article>
+                    <h2>Artigo Principal</h2>
+                    <p>Texto do artigo...</p>
+                </article>
+        
+                <section id="home">
+                    <h2>Outra Seção Importante</h2>
+                    <p>Conteúdo da outra seção...</p>
+                </section>
+                <section id="sobre">
+                    <header>
+                        <h2>sobre</h2>
+                    </header>
+                    <article>
+                        <h3>Nossa História</h3>
+                        <p>A fome de Matar é uma hamburgueria fundada por Pedro Silva, um ex-fuzileiro naval que trouxe para o mundo da gastronomia a mesma determinação e atenção aos detalhes que tinha no serviço militar. Com um ambiente que mescla elementos da vida militar de Pedro e uma decoração moderna, o local oferece hambúrgueres artesanais de alta qualidade, acompanhamentos e molhos exclusivos. A equipe, treinada para proporcionar um atendimento caloroso e acolhedor, garante uma experiência única para cada cliente, celebrando a transição de Pedro de soldado a chef com paixão e excelência.</p>
+                    </article>
+                
+                </section>
+                <section id="servicos">
+                    <header>
+                        <h2>Nossos Serviços</h2>
+                    </header>
+                    <p>Aqui você encontra informações sobre os serviços que oferecemos.</p>
+                </section>
+
+                <section id="contato">
+                    <header>
+                        <h2>Contato</h2>
+                    </header>
+                    <p>Entre em contato conosco através do formulário abaixo.
+                    </p>
+                </section>
+        <section id="login">
+            <form action="login.php" method="post">
+                <p>ENTRAR</p> 
+                <label for="login">Login: </label><input type="text" name="login"><br>
+                <label for="senha">Senha: </label><input type="password" name="senha"><br>
+                <button type="submit">Entrar</button><br>
+                <a href="cadastrar.php">Ainda não tenho conta</a>
+
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>Todos os direitos reservados a <a href="www.proflobo.com.br">Eduardo Wendell</a> 2024 Meu Site Responsivo</p>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+
+</html>
